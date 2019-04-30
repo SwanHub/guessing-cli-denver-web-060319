@@ -29,18 +29,7 @@ def run_guessing_game
 puts "Goodbye!"
 end
 
-# Currently, the program.
-
-
-
-
-
-
-# learn for tests...
-
-  # 1 - user input responds to exit.
-  # 2 - You guessed the correct number...
-# rspec for help.
+# REMEMBER: when you capture input from a user, you're capturing a .String
 
 # take input from the command line (input = gets.chomp)
 # compare input to a random number (rand = **randgenerator)
@@ -48,7 +37,6 @@ end
 # If not same, "The computer guessed #{randgenerator}"
 # User can then exit program with gets.chomp == "exit"
 
-# hints: use WHILE, RAND, and BREAK.
-
 # this lab focuses on looping and user input w gets.chomp.
-# it looks like "loop" and "while" are the suggested methods.
+
+# hints: use WHILE, RAND, and BREAK.
